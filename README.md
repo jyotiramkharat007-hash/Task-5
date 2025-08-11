@@ -9,20 +9,24 @@ http
 dns
 tcp
 
-# Task 5 - Capture and Analyze Network Traffic Using Wireshark
+# Task 5 – Capture and Analyze Network Traffic Using Wireshark
 
-## 🎯 Objective
-Capture live network packets and identify basic protocols and traffic types.
-
-## 🛠 Tools Used
-- **Wireshark** (Free & Open Source)
-- **Kali Linux Terminal** (for ping and traffic generation)
+## Objective
+Capture live network packets and identify basic protocols and traffic types using Wireshark.
 
 ---
 
-## 📌 Steps Performed
+## Tools Used
+- **Wireshark** (Version 4.4.7 in my setup)
+- **Kali Linux (VirtualBox)**
+
+---
+
+## Steps Followed
 
 ### 1. Install Wireshark
+Wireshark was installed in Kali Linux using the package manager.
+
 ```bash
 sudo apt update
-sudo apt install wireshark -y
+sudo apt install wireshark
